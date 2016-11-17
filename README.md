@@ -23,6 +23,7 @@ Usage
 ===========
 -  Start:
 ```
+npm install
 node api.js
 node api.js --reset
 will reset the mongodb table that contains the metadata.
