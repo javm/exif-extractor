@@ -1,0 +1,11 @@
+{
+  "s3": {
+    "options": {
+      "maxAsyncS3": 20,
+      "s3RetryCount": 3,
+      "s3RetryDelay": 1000,
+      "multipartUploadThreshold": 20971520,
+      "multipartUploadSize": 15728640
+    }
+  }
+}
