@@ -24,9 +24,12 @@ Usage
 -  Start:
 ```
 npm install
-node api.js
 node api.js --reset
-will reset the mongodb table that contains the metadata.
+will initialize/reset the mongodb table that contains the metadata.
+
+For later runs is enough
+node api.js
+
 ```
 - The database is exif-extractor
 - The table is exif
