@@ -15,11 +15,11 @@ See package.js
 
 Usage
 ===========
-* Start:
+-  Start:
 node api.js
-**
 node api.js --reset
 will reset the mongodb table that contains the metadata.
+
 - The database is exif-extractor
 - The table is exif
 - Port 8010
@@ -28,7 +28,7 @@ will reset the mongodb table that contains the metadata.
 	id: {imageKey},
 	exif: {exifDataExtracted}
 }
-*** Query endpoint
+- Query endpoint
 GET localhost:8010/exif
 gets the list of all exif photos metadata stored
 
