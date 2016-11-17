@@ -37,28 +37,26 @@ will reset the mongodb table that contains the metadata.
 	metadata: {exifDataExtractedObject}
 }
 ```
+
 - Query endpoints
+
+```
 1. GET localhost:8010/exif
 gets the list of all exif photos metadata stored
-```
+
 {
  items: [object],
  count: {number}
 }
-```
+
+
 2. GET localhost:8010/exif/:key
 
 GET http://localhost:8010/exif/001f4fda-11a9-439d-b579-813d7624afe7.ecd9c0eb-65ec-4e30-b537-a3690f81616b
 gets the specific item with key
 
-```
 {
  key: 001f4fda-11a9-439d-b579-813d7624afe7.ecd9c0eb-65ec-4e30-b537-a3690f81616b,
 metadata: {exifDataExtractedObject}
 }
 ```
-
-
-
-
-
