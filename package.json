@@ -1,14 +1,24 @@
 {
-  "name": "exif-extractor",
-  "description": "This app extracts EXIF metadata from files and stores them",
-  "author": "Jose A. Villarreal",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "exif": "^0.6.0",
-    "express": "^4.14.0",
-    "mongoose": "^4.6.8",
-    "nconf": "^0.8.4",
-    "request": "^2.78.0",
-    "xml2json": "^0.10.0"
-  }
+    "name": "exif-extractor",
+    "version": "0.0.1",
+    "description": "This app extracts EXIF metadata from files and stores them",
+    "main": "api.js",
+    "scripts": {
+	"start": "node api.js"
+    },
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/javm/exif-extractor.git"
+    },
+    "author": "Jose A. Villarreal",
+    "license": "MIT"
+    "dependencies": {
+	"body-parser": "^1.15.2",
+	"exif": "^0.6.0",
+	"express": "^4.14.0",
+	"mongoose": "^4.6.8",
+	"nconf": "^0.8.4",
+	"request": "^2.78.0",
+	"xml2json": "^0.10.0"
+    }
 }
