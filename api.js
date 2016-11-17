@@ -37,4 +37,11 @@ app.get('/', (req, res, next) => {
   res.json({msg: 'EXIF Extractor!'});
 });
 
+app.get('/exif', (req, res, next) => {
+
+  Exif.find().then(all => {
+    res.json(all);
+  });
+}); 
+
 app.listen(config.get('port'));
